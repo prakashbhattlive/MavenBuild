@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: tomcatservers
   vars:
   - warName: java-example.war
   - warRemotePath: /var/lib/tomcat9/webapps/
